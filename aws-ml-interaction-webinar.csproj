@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>aws_ml_interaction_webinar</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.Polly" Version="3.5.1.30" />
+    <PackageReference Include="AWSSDK.Rekognition" Version="3.5.2.39" />
+    <PackageReference Include="AWSSDK.TranscribeService" Version="3.5.2.47" />
+    <PackageReference Include="AWSSDK.Translate" Version="3.5.2.25" />
+  </ItemGroup>
+
+</Project>
